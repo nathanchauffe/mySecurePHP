@@ -1,0 +1,42 @@
+<style type="text/css">
+
+
+	
+.gridTable table{
+  	 border:1px solid;
+
+	border-radius: 5px 5px 5px 5px;
+	width:100%;
+	margin:10px;
+	background-color:#f5f5f5;
+	font-size:11px;
+	padding-left: 8px;
+	padding-right:8px;
+
+}.gridTable th{
+background-color:#f5f5f5;
+
+height:40px;
+font-size:14px;
+padding-left:8px;
+padding-right:8px;
+
+}
+
+
+
+.gridTable tr:nth-child(odd){ background-color:#f5f5f5; 
+				font-size:12px;
+				padding-left:8px;
+				padding-right:8px;
+}
+.gridTable tr:nth-child(even){ background-color:#ffffff; 
+				font-size:12px;
+				padding-left:8px;
+				padding-right:8px;
+ }
+
+
+	 
+
+</style>

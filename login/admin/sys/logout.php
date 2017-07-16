@@ -1,0 +1,14 @@
+<?php
+
+// Inialize session
+ session_start();
+
+// Delete certain session
+ unset($_SESSION['username_ad']);
+ // Delete all session variables
+ // session_destroy();
+
+// Jump to login page
+ header('Location: /login/admin/index.html');
+
+?>
