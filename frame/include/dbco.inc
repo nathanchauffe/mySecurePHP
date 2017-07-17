@@ -1,7 +1,7 @@
 <?php
 
 $hostname = '';       \\ Usually localhost
-$dbname   = '';       \\ You can choose name.
+$dbname   = '';       \\ Instructions - Database Structure I
 $dbusername = '';             
 $dbpassword = '';               
 
