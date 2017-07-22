@@ -1,21 +1,22 @@
 <?php
 
-// Inialize session
+// Inialize session.
  session_start();
 
-// Check, if user is already login, then jump to secured page
+// If the user is already logged in, then jump to secured page.
 if (isset($_SESSION['username'])) {
 header('Location: /login/user/index.php');
 }
 
-//Get the header.
+// Get the header.
 require('sys/header.html');
+
 ?>
   <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h2>Secure PHP & MySQL</h2>
-        <p>MySecurePHP is a is lightweight and secure user management application designed to easily integrate into most web applications. Download it on GitHub today or register as a new user on our live demo!</p>
+        <p>MySecurePHP is a is lightweight and secure user management application designed to easily integrate into most web applications. <a href="https://github.com/nathanchauffe/mySecurePHP" target="new" > Download it GitHub today</a> or register as a new user on our live demo!</p>
         <p><a class="btn btn-primary btn-lg" href="/login/new/index.html" role="button">Register New User</a></p>
       </div>
     </div>
@@ -36,14 +37,15 @@ require('sys/header.html');
         <div class="col-md-4">
           <h2>Dashboard</h2>
           <p>MySecurePHP utilizes SB Admin v.2 as from startbootstrap.com a dashboard controller. 
-          Administraitors can view trends on Google charts, Morris.js, or directly on Datatables. 
+          Administrators can view trends on Google charts, Morris.js, or directly on Datatables. 
           The dashboard is designed to handle all necessary functions without an admin having to directly access MySQL. </p>
         
         </div>
       </div>
 </div>
 <?php
-//Get the footer.
-require('sys/footer.html');
-?>
 
+// Get the footer.
+require('sys/footer.html');
+
+?>
